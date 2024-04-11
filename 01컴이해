@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>컴이해</title>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/xp.css"
+>
+<style>
+body{
+  margin: 0;
+  height: 95vh;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+.userbox{
+        display: flex;
+    }
+    .userbox-img img{
+        width: 20vw;
+        min-width: 100px;
+        max-width: 200px;
+      border-radius: 50%;
+    }
+    .userbox-img{
+        margin: 8px;
+      
+    }
+    .userbox p{
+        padding: 1em;
+        font-size: 10pt;
+    }
+  
+    #header-box{
+        margin: 5vh auto;
+        max-width: 700px;
+    }
+    #name h3{
+      margin: 0.2em 0 ;
+      padding: 0;
+}
+     #major{
+    font-size: 1.5em;
+    margin: 0.3em 0;
+}
+#device{
+      font-size: 1.1em;
+}
+#device-name{
+      background: #5dde87;
+    padding: 0 0.2em;
+    color: var(--dark);
+    font-family: var(--rounded);
+    font-weight: 600;
+}
+</style>
+</head>
+<body>
+
+<div class="window" id="header-box">
+            <div class="title-bar">
+                <div class="title-bar-text">컴퓨터의 이해 과제</div>
+                <div class="title-bar-controls"><button aria-label="Minimize"></button>
+                <div class="title-bar-controls"><button aria-label="Close"></button>
+                </div>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="userbox">
+                    <div class="userbox-img">
+                        
+                        <img src="https://i.discogs.com/jLL79WfnaLi1okFKVWznNedLpDuVCo95Mri51mmiNp0/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NDUz/MTMtMTY2NTQ3OTEw/MS04MDk2LmpwZWc.jpeg" alt="avatar">
+                    </div>
+                  <div id="textbox">
+                    <div id="name"><h3>이가희</h3></div>
+                    <div id="major">컴퓨터과학과</div>
+                    <div id="device">제가 과제에서 소개한 3차원 출력 장치는 <span id="device-name">수증기 디스플레이</span> 입니다.</div>
+                  </div>
+
+                </div>
+                
+            </div>
+        </div>
+</body>
+</html>
